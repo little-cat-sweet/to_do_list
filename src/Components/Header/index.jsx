@@ -18,7 +18,6 @@ const Header = (props) => {
         nameRef.current.value = null;
         ageRef.current.value = null;
         addPerson(person)
-        alert("add successfully !")
     }
     return (
         <div>
